@@ -1,0 +1,662 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MStore - Delicious local food, affordable prices, and bright vibes.">
+    <title>Mstore | Local Food Business</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+
+<header class="navbar">
+    <a href="#home" class="logo" data-goto="home">
+        <span>MSTORE</span><span class="logo-dot">.</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Toggle navigation"
+        aria-expanded="false">☰</button>
+
+    <nav class="nav-links">
+        <button class="nav-btn active" data-page="home">Home</button>
+        <button class="nav-btn" data-page="about">About</button>
+        <button class="nav-btn" data-page="products">Products</button>
+        <button class="nav-btn" data-page="gallery">Gallery</button>
+        <button class="nav-btn" data-page="contact">Contact</button>
+    </nav>
+</header>
+
+
+
+<main>
+
+<section class="page active" id="home">
+
+    <div class="hero">
+        <div class="hero-content" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <p class="eyebrow">YOUR NEW FAVORITE LOCAL FOOD SPOT</p>
+
+
+            
+            <h1>
+                GOOD FOOD.<br>
+                <span>GOOD VIBES.</span>
+            </h1>
+
+            <p class="hero-description">
+                Welcome to our Mstore! Discover delicious, affordable,
+                and satisfying Filipino snacks and desserts made to brighten your day.
+                Perfect for your stomach and your budget.
+            </p>
+            <div class="button-group">
+                <button class="btn btn-pink" data-goto="products">
+                    Explore Our Menu ↗
+                </button>
+
+                <button class="btn btn-outline" data-goto="about">
+                    Our Story
+                </button>
+            </div>
+
+            <div class="hero-note">
+                <span class="status-dot"></span>
+                FRESH FLAVORS, GOOD VIBES
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="images/lumpiang_togue.jpg"
+                alt="Lumpiang Togue served with dipping sauce">
+
+            <div class="floating-tag">
+                <span>★ CUSTOMER FAVORITE</span>
+                <h3>Lumpiang Togue</h3>
+                <p>₱10.00</p>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="section-padding">
+        <div class="section-heading">
+            <p class="eyebrow">WELCOME TO MSTORE</p>
+            <h2>Big flavor. <span>Local love.</span></h2>
+
+            <p>
+                We are a local food business dedicated to serving tasty,
+                budget-friendly meals and snacks. Whether you're craving
+                a variety of Filipino snacks and desserts,
+                MStore has something for you.
+            </p>
+        </div>
+
+        <div class="feature-grid">
+            <article class="feature-card">
+                <div class="feature-icon">✦</div>
+                <h3>Quality Ingredients</h3>
+                <p>
+                    We aim to prepare our food with care and ingredients
+                    selected for quality and flavor.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon blue-icon">♡</div>
+                <h3>Made with Love</h3>
+                <p>
+                    Every meal is prepared with the goal of giving our
+                    customers a satisfying experience.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">₱</div>
+                <h3>Affordable Meals</h3>
+                <p>
+                    Enjoy delicious comfort food without spending too much.
+                    Good food should be for everyone.
+                </p>
+            </article>
+        </div>
+    </section>
+
+
+    <section class="section-padding featured-section">
+        <div class="section-title-row">
+            <div>
+                <p class="eyebrow">TASTE THE HYPE</p>
+                <h2>Featured <span>Favorites</span></h2>
+            </div>
+
+            <button class="text-link" data-goto="products">
+                View All Products ↗
+            </button>
+        </div>
+
+        <div class="product-grid">
+
+            <article class="product-card">
+                <img src="images/lumpiang_togue.jpg" alt="Lumpiang Togue">
+                <div class="product-info">
+                    <span class="product-category">BESTSELLER</span>
+                    <h3>Lumpiang Togue</h3>
+                    <p>Crispy Filipino spring rolls filled with savory vegetables.</p>
+                    <strong class="price">₱10.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/lumpiang_shanghai.jpg" alt="Lumpiang Shanghai">
+                <div class="product-info">
+                    <span class="product-category">CRISPY FAVORITE</span>
+                    <h3>Lumpiang Shanghai</h3>
+                    <p>Golden bite-sized spring rolls with a savory filling.</p>
+                    <strong class="price">₱10.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/lumpiang_isda.jpg" alt="Lumpiang Isda">
+                <div class="product-info">
+                    <span class="product-category">MUST TRY</span>
+                    <h3>Lumpiang Isda</h3>
+                    <p>Crispy spring rolls filled with seasoned fish.</p>
+                    <strong class="price">₱10.00</strong>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="center-button">
+            <button class="btn btn-pink" data-goto="products">
+                Discover All 10 Products →
+            </button>
+        </div>
+    </section>
+
+
+    <section class="cta-banner">
+        <p class="eyebrow">YOUR NEXT CRAVING STARTS HERE</p>
+        <h2>Hungry yet?</h2>
+        <p>Come visit us and experience your new favorite food spot!</p>
+        <button class="btn btn-pink" data-goto="contact">
+            Find Us Today →
+        </button>
+    </section>
+
+</section>
+
+
+
+<section class="page" id="about">
+
+    <div class="page-hero">
+        <p class="eyebrow">GET TO KNOW US</p>
+        <h1>OUR STORY, <span>OUR PASSION.</span></h1>
+        <p>Good food brings people together.</p>
+    </div>
+
+    <section class="section-padding">
+
+        <div class="about-content">
+            <img
+                class="about-image"
+                src="images/mstore.jfif"
+                alt="MStore">
+
+            <p class="eyebrow">WHO WE ARE</p>
+            <h2>More than just <span>food.</span></h2>
+
+            <p>
+                MStore started in 2020, during the COVID-19 pandemic. Our family decided to start the business because we needed a way to support ourselves during one of the most difficult times in our lives. Before establishing MStore, my husband and I were self-employed and supplied ingredients, including fish and seafood, to Japanese-Chinese restaurants such as Kamayan, Saisaki, and Dad's. This was our main source of income, which we relied on to cover our family's daily expenses.
+                Unfortunately, our family faced several challenges when the pandemic began. Our other source of income, hog breeding, came to an end when African swine fever struck. These events made our financial situation even more difficult.
+                Despite these hardships, my family did not give up. In the middle of the crisis, we established MStore to earn a living and support our family's needs. Through hard work, determination, and perseverance, MStore became an important source of income. Thanks to the business, we were able to overcome our financial struggles and even renovate and improve our home.
+                Today, MStore represents more than just a business to us. It symbolizes our family's resilience, unity, and determination to overcome life's challenges. Our journey reminds us that even in the most difficult situations, there is always hope and an opportunity to start again. Through MStore, we have been able to offer affordable food to people who need a filling meal to stay nourished and energized throughout the day.
+            </p>
+
+            <p>
+                We believe that food is more than something we eat.
+                It is a way to connect with friends, celebrate moments,
+                and create memories. Our goal is to make every customer
+                feel welcome with every order.
+            </p>
+
+            <p>
+                From our crispy lumpia to our sweet Filipino desserts,
+                we want every visit to be enjoyable, convenient, and
+                worth coming back for.
+            </p>
+
+            <button class="btn btn-pink" data-goto="products">
+                Explore Our Products →
+            </button>
+        </div>
+
+    </section>
+
+
+    <section class="section-padding">
+        <div class="section-heading">
+            <p class="eyebrow">WHAT WE STAND FOR</p>
+            <h2>Our Mission & <span>Vision</span></h2>
+        </div>
+
+        <div class="feature-grid">
+
+            <article class="feature-card mission-card">
+                <div class="feature-icon">◎</div>
+                <h3>Our Mission</h3>
+                <p>
+                    To serve delicious, affordable, and satisfying food
+                    while providing friendly service, maintaining food
+                    quality, and building meaningful relationships
+                    with our customers and community.
+                </p>
+            </article>
+
+            <article class="feature-card vision-card">
+                <div class="feature-icon blue-icon">✧</div>
+                <h3>Our Vision</h3>
+                <p>
+                    To become a recognized local food destination known
+                    for flavorful meals, creative presentation, excellent
+                    customer service, and a welcoming atmosphere.
+                </p>
+            </article>
+
+            <article class="feature-card">
+                <div class="feature-icon">♡</div>
+                <h3>Our Core Values</h3>
+                <p>
+                    Quality, affordability, cleanliness, creativity,
+                    teamwork, honesty, and customer satisfaction guide
+                    everything we aim to do.
+                </p>
+            </article>
+
+        </div>
+    </section>
+</section>
+
+
+<!-- ================= PRODUCTS PAGE ================= -->
+<section class="page" id="products">
+
+    <div class="page-hero">
+        <p class="eyebrow">FRESH FROM OUR MENU</p>
+        <h1>OUR <span>PRODUCTS.</span></h1>
+        <p>Discover your next favorite bite.</p>
+    </div>
+
+    <section class="section-padding">
+
+        <div class="section-heading">
+            <p class="eyebrow">MADE FOR YOUR CRAVINGS</p>
+            <h2>The MStore <span>Menu</span></h2>
+            <p>
+                Check out our selection of savory favorites, snacks,
+                and desserts.
+            </p>
+        </div>
+
+        <div class="product-grid">
+
+            <article class="product-card">
+                <img src="images/lumpiang_togue.jpg" alt="Lumpiang Togue">
+                <div class="product-info">
+                    <span class="product-category">LUMPIA</span>
+                    <h3>1. Lumpiang Togue</h3>
+                    <p>Crispy spring rolls filled with savory vegetables and togue.</p>
+                    <strong class="price">₱10.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/lumpiang_shanghai.jpg" alt="Lumpiang Shanghai">
+                <div class="product-info">
+                    <span class="product-category">LUMPIA</span>
+                    <h3>2. Lumpiang Shanghai</h3>
+                    <p>Golden bite-sized spring rolls with a savory filling.</p>
+                    <strong class="price">₱10.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/lumpiang_isda.jpg" alt="Lumpiang Isda">
+                <div class="product-info">
+                    <span class="product-category">LUMPIA</span>
+                    <h3>3. Lumpiang Isda</h3>
+                    <p>Crispy spring rolls filled with seasoned fish.</p>
+                    <strong class="price">₱10.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/lumpiang_potato_mash.jpg" alt="Lumpiang Potato Mash">
+                <div class="product-info">
+                    <span class="product-category">LUMPIA</span>
+                    <h3>4. Lumpiang Potato Mash</h3>
+                    <p>Crispy lumpia filled with smooth, savory mashed potato.</p>
+                    <strong class="price">₱10.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/turon.jpg" alt="Turon">
+                <div class="product-info">
+                    <span class="product-category">SWEET SNACKS</span>
+                    <h3>5. Turon</h3>
+                    <p>Sweet banana wrapped in a crisp golden wrapper.</p>
+                    <strong class="price">₱10.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/siomai.jpg" alt="Siomai">
+                <div class="product-info">
+                    <span class="product-category">STEAMED</span>
+                    <h3>6. Siomai</h3>
+                    <p>Savory steamed dumplings served hot and ready to enjoy.</p>
+                    <strong class="price">₱25.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/fishball_and_kikiam.jpg" alt="Fishball and Kikiam">
+                <div class="product-info">
+                    <span class="product-category">STREET FOOD</span>
+                    <h3>7. Fishball &amp; Kikiam</h3>
+                    <p>Classic Filipino street-food favorites with dipping sauce.</p>
+                    <strong class="price">₱20.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/mango_jelly.jpg" alt="Mango Jelly">
+                <div class="product-info">
+                    <span class="product-category">DESSERTS</span>
+                    <h3>8. Mango Jelly</h3>
+                    <p>Chilled, fruity jelly with a sweet mango flavor.</p>
+                    <strong class="price">₱50.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/pandan_jelly.jpg" alt="Pandan Jelly">
+                <div class="product-info">
+                    <span class="product-category">DESSERTS</span>
+                    <h3>9. Pandan Jelly</h3>
+                    <p>Cool, refreshing jelly with a fragrant pandan flavor.</p>
+                    <strong class="price">₱50.00</strong>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <img src="images/ginataang_bilo-bilo.jpg" alt="Ginataang Bilo-bilo">
+                <div class="product-info">
+                    <span class="product-category">DESSERTS</span>
+                    <h3>10. Ginataang Bilo-bilo</h3>
+                    <p>Warm, comforting rice balls in sweet coconut milk.</p>
+                    <strong class="price">₱30.00 per cup</strong>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="notice-card">
+            <h3>Want to place an order?</h3>
+            <p>
+                Contact us for product availability, group orders,
+                and other inquiries.
+            </p>
+            <button class="btn btn-pink" data-goto="contact">
+                Contact Us →
+            </button>
+        </div>
+
+        <p class="small-note">
+            All prices are in Philippine pesos. Product availability may vary.
+        </p>
+
+    </section>
+
+</section>
+
+
+
+<section class="page" id="gallery">
+
+    <div class="page-hero">
+        <p class="eyebrow">A FEAST FOR YOUR EYES</p>
+        <h1>FOOD & <span>VIBES.</span></h1>
+        <p>Take a look at our delicious selection.</p>
+    </div>
+
+    <section class="section-padding">
+
+        <div class="section-heading">
+            <p class="eyebrow">OUR PHOTO COLLECTION</p>
+            <h2>The MStore <span>Gallery</span></h2>
+            <p>
+                Explore our featured meals, savory snacks, sweet treats,
+                and refreshing drinks.
+            </p>
+        </div>
+
+        <div class="gallery-grid">
+
+            <figure class="gallery-item">
+                <img src="images/lumpiang_togue.jpg" alt="Lumpiang Togue">
+                <figcaption>Lumpiang Togue</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/lumpiang_shanghai.jpg" alt="Lumpiang Shanghai">
+                <figcaption>Lumpiang Shanghai</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/lumpiang_isda.jpg" alt="Lumpiang Isda">
+                <figcaption>Lumpiang Isda</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/lumpiang_potato_mash.jpg" alt="Lumpiang Potato Mash">
+                <figcaption>Lumpiang Potato Mash</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/turon.jpg" alt="Turon">
+                <figcaption>Turon</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/siomai.jpg" alt="Siomai">
+                <figcaption>Siomai</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/fishball_and_kikiam.jpg" alt="Fishball and Kikiam">
+                <figcaption>Fishball &amp; Kikiam</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/mango_jelly.jpg" alt="Mango Jelly">
+                <figcaption>Mango Jelly</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/pandan_jelly.jpg" alt="Pandan Jelly">
+                <figcaption>Pandan Jelly</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/ginataang_bilo-bilo.jpg" alt="Ginataang Bilo-bilo">
+                <figcaption>Ginataang Bilo-bilo</figcaption>
+            </figure>
+
+        </div>
+
+        <div class="cta-banner">
+            <p class="eyebrow">CRAVING WHAT YOU SEE?</p>
+            <h2>Your next favorite is waiting.</h2>
+            <button class="btn btn-pink" data-goto="products">
+                Browse the Menu →
+            </button>
+        </div>
+
+    </section>
+
+</section>
+
+
+<section class="page" id="contact">
+
+    <div class="page-hero">
+        <p class="eyebrow">WE WOULD LOVE TO HEAR FROM YOU</p>
+        <h1>LET'S <span>CONNECT.</span></h1>
+        <p>Questions, orders, or feedback? Get in touch!</p>
+    </div>
+
+    <section class="section-padding">
+
+        <div class="section-heading">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>Contact <span>MStore</span></h2>
+            <p>
+                Reach out to us for menu inquiries, orders,
+                business information, or customer feedback.
+            </p>
+        </div>
+
+        <div class="contact-grid">
+
+            <article class="contact-card">
+                <div class="contact-icon">⌖</div>
+                <h3>Our Address</h3>
+                <p>64 Diamond Hill Street, Molave Extension</p>
+                <p>Payatas B, Quezon City</p>
+                <p>Philippines</p>
+                <span class="contact-note">Visit our location</span>
+            </article>
+
+            <article class="contact-card">
+                <div class="contact-icon">☎</div>
+                <h3>Phone Number</h3>
+                <p>+63 994 348 9982</p>
+                <span class="contact-note">Call or message us</span>
+            </article>
+
+            <article class="contact-card">
+                <div class="contact-icon">✉</div>
+                <h3>Email Address</h3>
+                <p>mariano.marielle1126@gmail.com</p>
+                <span class="contact-note">Send us your inquiries</span>
+            </article>
+
+            <article class="contact-card">
+                <div class="contact-icon">◷</div>
+                <h3>Business Hours</h3>
+                <p>Monday – Sunday</p>
+                <p>08:00 AM – 05:00 PM</p>
+                <span class="contact-note">Sample operating schedule</span>
+            </article>
+
+        </div>
+
+
+        <div class="contact-lower">
+
+            <div class="contact-panel">
+                <p class="eyebrow">FIND US ONLINE</p>
+                <h2>Follow our <span>socials.</span></h2>
+                <p>
+                    Follow our social media pages for menu updates,
+                    announcements, special offers, and more.
+                </p>
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" target="_blank"
+                        rel="noopener noreferrer" class="social-link">
+                        Facebook ↗
+                    </a>
+
+                    <a href="https://www.instagram.com/" target="_blank"
+                        rel="noopener noreferrer" class="social-link">
+                        Instagram ↗
+                    </a>
+
+                    <a href="https://www.tiktok.com/" target="_blank"
+                        rel="noopener noreferrer" class="social-link">
+                        TikTok ↗
+                    </a>
+                </div>
+
+                <p class="small-note">
+                    Replace these links with your actual business profiles.
+                </p>
+            </div>
+
+
+            <div class="contact-panel">
+                <p class="eyebrow">VISIT US</p>
+                <h2>Come say <span>hello!</span></h2>
+
+                <p>
+                    We look forward to serving you. Check our business hours
+                    before visiting, and contact us to confirm product
+                    availability.
+                </p>
+
+                <button class="btn btn-pink" data-goto="products">
+                    View Our Menu →
+                </button>
+            </div>
+
+        </div>
+
+
+        <div class="notice-card">
+            <h3>Thank you for supporting local!</h3>
+            <p>
+                Every customer helps our small business grow.
+                We appreciate your support and look forward to seeing you.
+            </p>
+        </div>
+
+    </section>
+
+</section>
+
+</main>
+
+
+
+<footer class="footer">
+    <a href="#home" class="logo" data-goto="home">
+        <span>MSTORE</span><span class="logo-dot">.</span>
+    </a>
+
+    <p>Good food. Bright vibes. Local love.</p>
+
+    <div class="footer-links">
+        <button data-goto="home">Home</button>
+        <button data-goto="about">About</button>
+        <button data-goto="products">Products</button>
+        <button data-goto="gallery">Gallery</button>
+        <button data-goto="contact">Contact</button>
+    </div>
+
+    <p class="copyright">
+        © <span id="current-year">2026</span> MStore.
+        School project demonstration.
+    </p>
+</footer>
+
+</body>
+</html>
